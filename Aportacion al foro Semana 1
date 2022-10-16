@@ -1,0 +1,7 @@
+let edad=25;
+if(edad>=18){
+    var mensaje="Ya puede conducir!!!"
+}else {
+    var mensaje="No puedes conducir"
+}
+console.log(mensaje)
