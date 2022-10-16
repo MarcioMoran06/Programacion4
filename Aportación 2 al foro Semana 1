@@ -1,0 +1,12 @@
+let totalventa=6500;
+let sueldo=10000;
+if(totalventa<=5000){
+    var bono=totalventa*0.10;
+}else{
+    var bono=totalventa*0.20;
+}
+let totalsueldo=sueldo+bono;
+console.log("El total de las ventas son de: ");console.log(totalventa)
+console.log("El bono de las ventas son de: ");console.log(bono)
+"---------------------"
+console.log("El sueldo total es de: ");console.log(totalsueldo)
